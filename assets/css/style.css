@@ -74,7 +74,7 @@ a.filled-button:hover {
 	border-bottom: 1px solid #eee;
 }
 
-#my-school-journey {
+#school {
 	background-color: #f7f7f7;
 	padding: 80px 0;
   }
@@ -116,8 +116,8 @@ a.filled-button:hover {
   .timeline-item img {
 	display: block;
 	margin: 0 auto;
-	width: 72px; /* Ubah ukuran logo sesuai kebutuhan */
-	height: 72px;
+	width: 128px; /* Ubah ukuran logo sesuai kebutuhan */
+	height: 128px;
 	object-fit: contain;
   }
   
@@ -137,7 +137,7 @@ a.filled-button:hover {
   }
   
 
-  #my-license-certificate {
+  #certificate {
 	background-color: #f7f7f7;
 	padding: 80px 0;
   }
@@ -416,7 +416,7 @@ header .navbar {
 
 .banner-item-01 {
 	padding: 300px 0px;
-	background-image: url(../images/slider-image-1-1920x600.jpg);
+	background-image: url(../images/Untitled/Profile.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1018,7 +1018,7 @@ footer .inner-content p a {
 }
 
 
-.skills-section {
+#skills {
 	background: #fff;
 	padding: 80px 0;
   }

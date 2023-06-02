@@ -49,8 +49,16 @@
                         <li class="nav-item"><a class="nav-link" href="#portofolio">Portofolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                            
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#school">My School Journey</a>
+                              <a class="dropdown-item" href="#certificate">License & Certificate</a>
+                              <a class="dropdown-item" href="#skills">Skills</a>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="more.html">More</a></li>
                     </ul>
                 </div>
                 </div>
@@ -140,99 +148,235 @@
             </div>
         </div>
 
+        <!-- Blog Section -->
         <div id = "blog" class="services" style="background-image: url(assets/images/other-image-fullscren-1-1920x900.jpg);" >
-        <div class="container">
-            <div class="row">
-            <div class="col-md-12">
-                <div class="section-heading">
-                <h2>Latest blog posts</h2>
-
-                <a href="https://medium.com/@mrindrajuliansyahputra10">read more <i class="fa fa-angle-right"></i></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item">
-                <a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9" class="services-item-image"><img src="assets/images/Untitled/Story 1.png" class="img-fluid" alt=""></a>
-                <div class="down-content">
-                    <h4><a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9">Exploring Laptop Price and Specifications Part 1: A Data Preparation using Python</a></h4>
-                    <p style="margin: 0;"> Indra Juliansyah Putra &nbsp;&nbsp;|&nbsp;&nbsp; <?= date('d/m/Y') ?></p>
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item">
-                <a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9" class="services-item-image"><img src="assets/images/Untitled/Story 2.png" class="img-fluid" alt=""></a>
-                <div class="down-content">
-                    <h4><a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9">Exploring Laptop Price and Specifications Part 1: A Data Preparation using Python</a></h4>
-                    <p style="margin: 0;"> Indra Juliansyah Putra &nbsp;&nbsp;|&nbsp;&nbsp; <?= date('d/m/Y') ?></p>
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item">
-                <a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9" class="services-item-image"><img src="assets/images/Untitled/Story 3.png" class="img-fluid" alt=""></a>
-                <div class="down-content">
-                    <h4><a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9">Exploring Laptop Price and Specifications Part 1: A Data Preparation using Python</a></h4>
-                    <p style="margin: 0;"> Indra Juliansyah Putra &nbsp;&nbsp;|&nbsp;&nbsp; <?= date('d/m/Y') ?></p>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-
-        <section id="contact" class="contact-section bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="contact-info">
-                            <h2 id="tulisan" class="section-heading">Contact Information</h2>
-                            <hr class="my-4">
-                            <div class="row">
-                                <div class="col-lg-12 text-center">
-                                    <i class="fa fa-envelope fa-3x mb-3"></i>
-                                    <a class="d-block" href="mailto:mrindrajuliansyahputra10@gmail.com">mrindrajuliansyahputra10@gmail.com</a>
-                                </div>
-                                <div class="col-lg-12 text-center mt-4">
-                                    <i class="fa fa-phone fa-3x mb-3"></i>
-                                    <a class="d-block" href="https://wa.me/+6281273415726">+62 812-7341-5726</a>
-                                </div>
-                                <div class="col-lg-12 text-center mt-4">
-                                    <i class="fa fa-map-marker fa-3x mb-3"></i>
-                                    <a class="d-block">Palembang City, South Sumatera, Indonesia</a>
-                                </div>
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                        <h2>Latest blog posts</h2>
+
+                        <a href="https://medium.com/@mrindrajuliansyahputra10">read more <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item">
+                            <a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9" class="services-item-image"><img src="assets/images/Untitled/Story 1.png" class="img-fluid" alt=""></a>
+                            <div class="down-content">
+                                <h4><a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9">Exploring Laptop Price and Specifications Part 1: A Data Preparation using Python</a></h4>
+                                <p style="margin: 0;"> Indra Juliansyah Putra &nbsp;&nbsp;|&nbsp;&nbsp; <?= date('d/m/Y') ?></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="contact-form">
-                            <h2 id="tulisan" class="section-heading">Get In Touch</h2>
-                            <hr class="my-4">
-                            <form>
-                                <div class="form-row">
-                                    <div class="col-md-6">
-                                        <label for="name">Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                                    </div>
-                                </div>
-                                <div class="form-group mt-3">
-                                    <label for="message">Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-danger">Submit</button>
-                            </form>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item">
+                            <a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9" class="services-item-image"><img src="assets/images/Untitled/Story 2.png" class="img-fluid" alt=""></a>
+                            <div class="down-content">
+                                <h4><a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9">Exploring Laptop Price and Specifications Part 1: A Data Preparation using Python</a></h4>
+                                <p style="margin: 0;"> Indra Juliansyah Putra &nbsp;&nbsp;|&nbsp;&nbsp; <?= date('d/m/Y') ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item">
+                            <a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9" class="services-item-image"><img src="assets/images/Untitled/Story 3.png" class="img-fluid" alt=""></a>
+                            <div class="down-content">
+                                <h4><a href="https://medium.com/@mrindrajuliansyahputra10/exploring-laptop-price-and-specifications-part-1-a-data-cleaning-analysis-using-python-eac08d75cde9">Exploring Laptop Price and Specifications Part 1: A Data Preparation using Python</a></h4>
+                                <p style="margin: 0;"> Indra Juliansyah Putra &nbsp;&nbsp;|&nbsp;&nbsp; <?= date('d/m/Y') ?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- School Section -->
+        <section id="school" class="section">
+            <div class="container">
+              <div class="section-heading">
+                <h2>My School Journey</h2>
+                <div class="separator"></div>
+              </div>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <img src="assets\images\Untitled\Logo SMANSS.png" alt="SMAN Sumatera Selatan" width="24" height="24">
+                  <div class="timeline-content">
+                    <h3>SMAN Sumatera Selatan</h3>
+                    <span>2018 — 2021</span>
+                    <p>Curabitur quis malesuada purus. Sed mattis justo id risus condimentum, a pulvinar dolor commodo. Etiam sit amet metus a dui eleifend fermentum nec at purus.</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <img src="assets\images\Untitled\Logo UNSRI.png" alt="Sriwijaya University" width="24" height="24">
+                  <div class="timeline-content">
+                    <h3>Sriwijaya University</h3>
+                    <span>2021 — Present</span>
+                    <p>Vestibulum ac facilisis dui. Quisque varius mi at lacus ullamcorper luctus. Pellentesque vitae purus lacinia, fringilla lectus at, feugiat libero.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+                
+
+        <!-- Certificate Section -->
+        <section id="certificate" class="section">
+            <div class="container">
+              <div class="section-heading">
+                <h2>My License & Certificate</h2>
+                <div class="separator"></div>
+              </div>
+              <div class="license-certificate-grid">
+                <div class="license-certificate-item">
+                  <div class="license-certificate-image">
+                    <img src="assets\images\Untitled\Logo Coursera.png" alt="Certificate 1">
+                  </div>
+                  <div class="license-certificate-content">
+                    <h3>Certificate Title 1</h3>
+                    <span>Issued: 2018 — 2021</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus euismod sem, id condimentum nulla commodo sit amet.</p>
+                    <button class="show-credential-button" onclick="redirectToCredential('https://instagram.com')" target="_blank">Show Credential</button>
+                  </div>
+                </div>
+                <div class="license-certificate-item">
+                  <div class="license-certificate-image">
+                    <img src="assets\images\Untitled\Logo Coursera.png" alt="Certificate 2">
+                  </div>
+                  <div class="license-certificate-content">
+                    <h3>Certificate Title 2</h3>
+                    <span>Issued: 2018 — 2021</span>
+                    <p>CLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus euismod sem, id condimentum nulla commodo sit amet.</p>
+                    <button class="show-credential-button" onclick="redirectToCredential('https://facebook.com')" target="_blank">Show Credential</button>
+                  </div>
+                </div>
+                <div class="license-certificate-item">
+                  <div class="license-certificate-image">
+                    <img src="assets\images\Untitled\Logo Coursera.png" alt="Certificate 3">
+                  </div>
+                  <div class="license-certificate-content">
+                    <h3>Certificate Title 3</h3>
+                    <span>Issued: 2018 — 2021</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus euismod sem, id condimentum nulla commodo sit amet.</p>
+                    <button class="show-credential-button" onclick="redirectToCredential('https://google.com')" target="_blank">Show Credential</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>  
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Skills</h2>
+                    <h5>Touch to Discover My Potential</h5>
+                    <div class="separator"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skill-box">
+                        <button class="skill-btn">Soft Skills</button>
+                        <ul class="sub-skills">
+                            <li>Problem Solving</li>
+                            <li>Time Management</li>
+                            <li>Project Management</li>
+                            <li>Computational Thinking</li>
+                            <li>Teamwork</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill-box">
+                        <button class="skill-btn">UI Design</button>
+                        <ul class="sub-skills">
+                            <li>Figma</li>
+                            <li>Adobe XD</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill-box">
+                        <button class="skill-btn">Web Development</button>
+                        <ul class="sub-skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>Tailwind CSS</li>
+                            <li>CodeIgniter3</li>
+                            <li>Laravel</li>
+                            <li>Git</li>
+                            <li>Github</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill-box">
+                        <button class="skill-btn">Programming Languages</button>
+                        <ul class="sub-skills">
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>PHP</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill-box">
+                        <button class="skill-btn">Databases</button>
+                        <ul class="sub-skills">
+                            <li>MySQL</li>
+                            <li>Oracle</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill-box">
+                        <button class="skill-btn">Microsoft Office Suite</button>
+                            <ul class="sub-skills">
+                                <li>Word</li>
+                                <li>PowerPoint</li>
+                                <li>Excel</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
+        <section id="contact" class="contact-section bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 id="tulisan" class="section-heading">Contact Information</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 offset-lg-2 text-center">
+                        <div class="contact-info">
+                            <i class="fa fa-envelope fa-3x mb-3"></i>
+                            <a class="d-block" href="mailto:mrindrajuliansyahputra10@gmail.com">mrindrajuliansyahputra10@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="contact-info">
+                            <i class="fa fa-phone fa-3x mb-3"></i>
+                            <a class="d-block" href="https://wa.me/+6281273415726">+62 812-7341-5726</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center mt-4">
+                        <div class="contact-info">
+                            <i class="fa fa-map-marker fa-3x mb-3"></i>
+                            <a class="d-block">Palembang City, South Sumatera, Indonesia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Footer-->
         <footer class="footer text-center">
