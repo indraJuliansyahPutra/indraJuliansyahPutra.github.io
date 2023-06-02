@@ -14,3 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+function redirectToCredential(credentialUrl) {
+  window.location.href = credentialUrl;
+}
