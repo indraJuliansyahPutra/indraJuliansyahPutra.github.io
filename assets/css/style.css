@@ -137,55 +137,56 @@ a.filled-button:hover {
   }
   
 
-  #certificate {
-	background-color: #f7f7f7;
-	padding: 80px 0;
-  }
-  
-  .license-certificate-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 30px;
-  }
-  
-  .license-certificate-item {
-	background-color: #fff;
-	padding: 30px;
-	border-radius: 4px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .license-certificate-image img {
-	width: 100%;
-	height: auto;
-	border-radius: 4px;
-	margin-bottom: 10px;
-  }
-  
-  .license-certificate-content h3 {
-	font-size: 18px;
-	margin-bottom: 10px;
-  }
-  
-  .license-certificate-content p {
-	color: #666;
-	line-height: 1.6;
-  }
-  
-  .show-credential-button {
-	background-color: #ff6b6b;
-	color: #fff;
-	padding: 8px 16px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-	transition: background-color 0.3s;
-  }
-  
-  .show-credential-button:hover {
-	background-color: #ff4f4f;
-  }
-  
+/* Certificate Section */
+#certificate {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+}
+
+.license-certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.license-certificate-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.license-certificate-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.license-certificate-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.license-certificate-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.show-credential-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.show-credential-button:hover {
+    background-color: #ff4f4f;
+}
+
 .section-heading h2 {
 	font-size: 36px;
     font-weight: 700;
@@ -520,6 +521,11 @@ header .navbar {
 	margin-bottom: 20px;
 }
 
+#spesial{
+	background-color: white;
+	border-radius: 22px 22px 0px 0px;
+}
+
 .product-item .down-content a {
 	font-size: 17px;
 	color: #f33f3f;
@@ -550,6 +556,11 @@ header .navbar {
 
 .product-item .down-content p {
 	margin-bottom: 20px;
+}
+
+.putih{
+	color: black;
+	text-align: center;
 }
 
 .product-item .down-content ul li {
@@ -927,6 +938,8 @@ footer .inner-content p a {
 .service-item {
 	text-align: center;
 	margin-bottom: 30px;
+	width: auto;
+	height: auto;
 }
 
 .service-item .icon {
@@ -1246,6 +1259,10 @@ footer .inner-content p a {
 		margin-top: 30px;
 		margin-left: 0px;
 	}
+	#spesial{
+		background-color: white;
+		border-radius: 32px 32px 0px 0px;
+	}
 }
 
 @media (max-width: 992px) {
@@ -1294,5 +1311,16 @@ footer .inner-content p a {
 	}
 	.product-item .down-content h6 {
 		margin-bottom: 20px;
+	}
+
+	.service-item {
+		text-align: center;
+		margin-bottom: 30px;
+		width: auto;
+		height: auto;
+	}
+	#spesial{
+		background-color: white;
+		border-radius: 12px 12px 0px 0px;
 	}
 }
